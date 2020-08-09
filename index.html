@@ -24,15 +24,32 @@
   </head>
   <body>
     <header>
-      <p class="knowledge-info">
-        <del style="text-decoration: none;"
-          >Hello. I'm Aykut... <ins>1</ins>
-        </del>
-        I love
-        <del style="text-decoration: none;">coding & music...<ins>2</ins></del
-        >building web applications, with solving problems.
-      </p>
+      <div class="navbar">
+        <div class="hamburger">
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+        </div>
+        <ul class="nav-link">
+          <li>
+            <a href="#" class="button-list">home</a>
+          </li>
+          <li>
+            <a href="#about" class="button-list">about</a>
+          </li>
+          <li>
+            <a href="#projects" class="button-list">projects</a>
+          </li>
+          <li>
+            <a href="#" class="button-list">resume</a>
+          </li>
+          <li>
+            <a href="#contacts" class="button-list">contacts</a>
+          </li>
+        </ul>
+      </div>
     </header>
+    <div class="wrapper">
     <div class="contents">
       <div class="who-am-i">
         <img class="image" src="./aykutsoyuk.JPG" />
@@ -43,6 +60,34 @@
           >
         </h5>
       </div>
+    </div>
+    <div class="knowledge">
+    <p class="knowledge-info">
+      <del style="text-decoration: none;"
+        >Hello. I'm Aykut... <ins>1</ins>
+      </del>
+      I love
+      <del style="text-decoration: none;">coding & music...<ins>2</ins></del
+      >building web applications, with solving problems.
+    </p>
+    </div>
+    <div class="about" id="about">
+      <h3>About</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla libero
+        error ut, nostrum debitis culpa pariatur a asperiores quod aliquid
+        praesentium ratione! Nostrum incidunt voluptate alias. Laborum
+        asperiores, nulla voluptate quaerat explicabo accusantium facere!
+        Debitis eius unde natus consequatur aperiam? Quis reiciendis placeat
+        alias distinctio recusandae atque aliquam incidunt sequi fuga delectus?
+        Soluta, praesentium alias officiis impedit autem voluptates debitis
+        totam, molestiae dolorum, reiciendis nostrum tempore quod iure
+        laudantium expedita cumque culpa repellendus blanditiis voluptatem
+        aliquam perspiciatis maiores exercitationem. Dicta repudiandae nostrum
+        consectetur, id et dignissimos error impedit, cupiditate aut blanditiis,
+        mollitia saepe in molestias? Impedit repudiandae earum accusantium
+        saepe.
+      </p>
     </div>
     <div class="icons-block">
       <div class="icons">
@@ -81,26 +126,8 @@
         </div>
       </div>
     </div>
-    <div class="about" id="about">
-      <h3>About</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla libero
-        error ut, nostrum debitis culpa pariatur a asperiores quod aliquid
-        praesentium ratione! Nostrum incidunt voluptate alias. Laborum
-        asperiores, nulla voluptate quaerat explicabo accusantium facere!
-        Debitis eius unde natus consequatur aperiam? Quis reiciendis placeat
-        alias distinctio recusandae atque aliquam incidunt sequi fuga delectus?
-        Soluta, praesentium alias officiis impedit autem voluptates debitis
-        totam, molestiae dolorum, reiciendis nostrum tempore quod iure
-        laudantium expedita cumque culpa repellendus blanditiis voluptatem
-        aliquam perspiciatis maiores exercitationem. Dicta repudiandae nostrum
-        consectetur, id et dignissimos error impedit, cupiditate aut blanditiis,
-        mollitia saepe in molestias? Impedit repudiandae earum accusantium
-        saepe.
-      </p>
-    </div>
     <div class="projects" id="projects">
-      <h3>Projects</h3>
+      <h3 style="color: #f4fffd">Projects</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi amet quae
         dolores et quisquam? Exercitationem odit, at, eius quam incidunt unde
@@ -126,52 +153,37 @@
         dolor earum.
       </p>
     </div>
-    <div class="navbar">
-      <ul class="left-list">
-        <li>
-          <a href="#" class="button-list">home</a>
-        </li>
-        <li>
-          <a href="#about" class="button-list">about</a>
-        </li>
-        <li>
-          <a href="#projects" class="button-list">projects</a>
-        </li>
-        <li>
-          <a href="#" class="button-list">resume</a>
-        </li>
-      </ul>
-      <div class="contacts">
-        <div class="contact-icon">
-          <a
-            href="https://github.com/aykutsoyuk"
-            target="_blank"
-            class="fab fa-github-square"
-          >
-          </a>
-        </div>
-        <div class="contact-icon">
-          <a
-            href="https://www.instagram.com/aykutcodes/?hl=tr"
-            target="_blank"
-            class="fab fa-instagram-square"
-          >
-          </a>
-        </div>
-        <div class="contact-icon">
-          <a
-            href="https://www.linkedin.com/in/aykut-s%C3%B6y%C3%BCk-b142a1a1/"
-            target="_blank"
-            class="fab fa-linkedin"
-          >
-          </a>
-        </div>
-        <div class="contact-icon">
-          <a href="mailto:aykutsoyuk@gmail.com" class="fas fa-envelope-square">
-          </a>
-        </div>
+    <div class="contacts" id="contacts">
+      <div class="contact-icon">
+        <a
+          href="https://github.com/aykutsoyuk"
+          target="_blank"
+          class="fab fa-github-square"
+        >
+        </a>
+      </div>
+      <div class="contact-icon">
+        <a
+          href="https://www.instagram.com/aykutcodes/?hl=tr"
+          target="_blank"
+          class="fab fa-instagram-square"
+        >
+        </a>
+      </div>
+      <div class="contact-icon">
+        <a
+          href="https://www.linkedin.com/in/aykut-s%C3%B6y%C3%BCk-b142a1a1/"
+          target="_blank"
+          class="fab fa-linkedin"
+        >
+        </a>
+      </div>
+      <div class="contact-icon">
+        <a href="mailto:aykutsoyuk@gmail.com" class="fas fa-envelope-square">
+        </a>
       </div>
     </div>
+  </div>
     <footer class="footer">
       created by Aykut Söyük © 2020
     </footer>
