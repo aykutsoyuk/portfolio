@@ -110,7 +110,7 @@ h2 {
 }
 
 .about {
-  border-radius: 50%;
+  border-radius: 3px;
   background-color: #f9dc5c;
   color: #011228;
   margin: 4vh 4vw;
