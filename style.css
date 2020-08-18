@@ -111,7 +111,6 @@ h2 {
 
 .about {
   border-radius: 3px;
-  background-color: #f9dc5c;
   color: #011228;
   margin: 4vh 4vw;
   padding: 4vh 4vw;
@@ -122,7 +121,7 @@ h2 {
 .about p {
   line-height: 32px;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 4vh;
   text-align: justify;
   letter-spacing: 0.5px;
@@ -142,7 +141,7 @@ h2 {
   letter-spacing: 0.5px;
   line-height: 32px;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 4vh;
   text-align: justify;
 }
@@ -213,6 +212,23 @@ h2 {
   width: 100vw;
 }
 
+.mockups {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image-browser {
+  height: 50vh;
+  width: auto;
+}
+
+.image-iphone {
+  height: 50vh;
+  width: auto;
+}
+
 @media screen and (max-width: 768px) {
   .burger-line {
     width: 30px;
@@ -258,5 +274,15 @@ h2 {
 
   li {
     line-height: 70px;
+  }
+
+  .image-browser {
+    height: 30vh;
+    width: auto;
+  }
+  
+  .image-iphone {
+    height: 30vh;
+    width: auto;
   }
 }
