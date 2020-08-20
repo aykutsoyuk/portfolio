@@ -222,11 +222,13 @@ h2 {
 .image-browser {
   height: 50vh;
   width: auto;
+  margin-top: 2vh;
 }
 
 .image-iphone {
   height: 50vh;
   width: auto;
+  margin-top: 2vh;
 }
 
 @media screen and (max-width: 768px) {
