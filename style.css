@@ -113,7 +113,7 @@ h2 {
   border-radius: 3px;
   color: #011228;
   margin: 4vh 4vw;
-  padding: 4vh 4vw;
+  /* padding: 4vh 4vw; */
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
